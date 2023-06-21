@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]  # PEP 508 specifications.
+
+[project]
+name = "py-false"
+version = "1.0.0"
+authors = [
+    {name = "S.Lott", email = "slott56@gmail.com"},
+]
+description = "The False Programming Language"
+readme = "README.rst"
+requires-python = ">=3.11"
+classifiers = [
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+]
+dependencies = [
+]
+[project.optional-dependencies]
+dev = [
+    "pip-tools==6.13.0"
+]
+test = [
+    "tox==4.0.8"
+]

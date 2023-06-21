@@ -1,12 +1,9 @@
 """
-False 1.2b.
+False 1.2b implemented in Python.
 
 TODO: Read a .f file and execute the False program as a command-line app.
 
-    python3.5 -m false somefile.f
-
-TODO: Use Unicode.  http://aplwiki.com/UnicodeAplTable
-
+    python3.5 -m pyfalse somefile.f
 
 """
 from collections.abc import Iterator
@@ -761,7 +758,7 @@ __test__ = {
 []
 ''',
 
-'arithmethic': '''
+'arithmetic': '''
 >>> machine = getmachine('1 2 + 2 3 - 5 7 * 31 11 / 13_')
 >>> machine.stack
 [3, -1, 35, 2, -13]
