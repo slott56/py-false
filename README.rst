@@ -3,7 +3,7 @@ False
 
 See http://strlen.com/false-language
 
-See http://strlen.com/false/false.txt
+See https://strlen.com/files/lang/false/false.txt
 
 Here's a couple of example programs to give a taste of what False looks like:
 
